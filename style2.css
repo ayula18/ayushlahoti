@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Combo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Combo&family=Smooch&display=swap');
+.forreal img{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.forreal{
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 470px; */
+    /* margin-top: 350px; */
+    /* height: 20vw;  */
+    
+    
+}
+.connectbox{
+    height: 20vw;
+    width: 100%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.connectbox button-57{
+    margin: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+}
+.connectinfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    font-size: 20px;
+    /* width: 1080px;
+    margin: auto;
+    margin-right: auto; */
+    
+
+}
+  
+.linkedin{
+    color: gray;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.connectbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.connectinfo{
+    display: flex;
+
+}
+.linkedin a:hover{
+    color: #0077b5;
+    transform: scale(1.5);
+    transition: ease 0.5s;
+}
+
+.linkedin a{
+    color: gray; 
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+    padding: 30px;
+    
+}
+.instagram a:hover{
+    color: #bc2a8d;
+    transform: scale(1.5);
+    transition: ease 0.5s;
+}
+.instagram a{
+    color: gray; 
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+    padding: 30px;
+    
+}
+.mail a:hover{
+    color: #EA4335;
+    transform: scale(1.5);
+    transition: ease 0.5s;
+}
+.mail a{
+    color: gray; 
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+    padding: 30px;   
+}
+.discord a:hover{
+    color: #7289da;
+    transform: scale(1.5);
+    transition: ease 0.5s;
+}
+.discord a{
+    color: gray; 
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+    padding: 30px; 
+}
+.git a:hover{
+    color: #6e5494;
+    transform: scale(1.5);
+    transition: ease 0.5s;
+}
+.git a{
+    color: gray; 
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+    padding: 30px; 
+}
+.footer{
+    color: gray;
+    text-align: center;
+     
+    bottom: 0px;
+    margin-bottom: 0px;
+    font-family: 'Combo', cursive;
+    font-family: 'Smooch', cursive;
+
+}
+
+
+
+
+.aboutpic{
+    display: flex;
+    /* justify-content: center; */
+    padding: 20px;
+    padding-top: 70px; 
+}
+.aboutpic img{
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    margin: auto;
+    display: block;
+}
+.aboutinfo{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 60px;
+    padding-top: 70px;
+    width: 50%;
+    color: gray;
+
+}
+.aboutinfo h2{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 30px;
+    
+
+}
+.aboutinfo p{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+
+}
+.aboutinfo:hover{
+    color: white;
+    font-size: 22px;
+    transform: scale(1.2);
+    transition: ease-in-out 0.5s;
+    background: transparent;
+}
+
+.bottominfo{
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    
+}
+.bottominfo1{
+    width: 33%;
+    margin-right: 10px;
+    border-right: double;
+    display: flex;
+    flex-direction: column;
+    
+}
+.bottominfo2{
+    width: 33%;
+    border-right: double;
+}
+.bottominfo3{
+    width: 33%;
+}
+.bottominfo h3{
+    font-family: 'Cinzel', serif; 
+    font-size: 22px;
+    text-shadow: gray;
+    padding: 10px;
+    text-align: center; 
+
+}
+.bottominfo1 h5{
+    text-align: left; 
+    font-family: 'Cinzel', serif; 
+    padding: 20px;
+    color: gray;
+    
+}
+.bottominfo1 p{
+    color: white;
+    text-align: left;
+}
+
