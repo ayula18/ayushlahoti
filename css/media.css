@@ -1,0 +1,32 @@
+
+
+
+
+@media only screen and (max-width:730px) {
+    .v-class{
+        opacity: 0;
+
+    
+    
+    }
+    .button-56{
+        margin: 10px;
+        width: 150px;
+    }
+    .infocontainer{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 100px;
+    }
+    }
+    
+    
+    
+

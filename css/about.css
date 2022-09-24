@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Combo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Combo&family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Combo&family=Edu+QLD+Beginner&family=Smooch&display=swap');
+
+
+.containerabt{
+    
+    color: white;
+    display: flex;
+
+
+}
+.aboutpic{
+    display: flex;
+    /* justify-content: center; */
+    padding: 20px;
+    padding-top: 70px; 
+}
+.aboutpic img{
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    margin: auto;
+    display: block;
+}
+.aboutinfo{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 60px;
+    padding-top: 70px;
+    width: 50%;
+    color: gray;
+
+}
+.aboutinfo h2{
+    /* font-family: 'Chakra Petch', sans-serif; */
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 30px;
+    
+
+}
+.aboutinfo p{
+    /* font-family: 'Chakra Petch', sans-serif; */
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 20px;
+
+}
+.aboutinfo:hover{
+    color: white;
+    font-size: 22px;
+    transform: scale(1.2);
+    transition: ease-in-out 0.5s;
+    background: transparent;
+}
+
+.bottominfo{
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    
+}
+.bottominfo1{
+    width: 25%;
+    margin-right: 10px;
+    border-right: double;
+    display: block;
+    
+}
+.bottominfo2{
+    width: 37%;
+    border-right: double;
+}
+.bottominfo3{
+    width: 37%;
+}
+.bottominfo h3{
+    font-family: 'Cinzel', serif; 
+    font-size: 22px;
+    text-shadow: gray;
+    padding: 10px;
+    text-align: center; 
+    
+
+}
+.bottominfo1 h5{
+    text-align: left; 
+    font-family: 'Cinzel', serif; 
+    padding: 20px;
+    color: #0FFF50;
+    
+}
+.bottominfo1 p{
+    color: white;
+    text-align: left;
+}
+.bi1{
+    float: left;
+}
+.bi2{
+    float: right;
+}
+.biheading{
+    width: 100%;
+}

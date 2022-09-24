@@ -16,4 +16,5 @@ const toggleOptions = () => {
     }
 };
 
-btnltEl.addEventListener('click', toggleOptions);
+// btnltEl.addEventListener('click', toggleOptions);
+
