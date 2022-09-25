@@ -18,3 +18,12 @@ const toggleOptions = () => {
 
 // btnltEl.addEventListener('click', toggleOptions);
 
+const burger = document.querySelector(".burger");
+const bottomnav = document.querySelector(".bottomnav");
+const button56 = document.querySelector(".button-56")
+
+burger.addEventListener("click", () => {
+    burger.classList.toggle("active");
+    bottomnav.classList.toggle("active");
+    button56.classList.toggle("active")
+})

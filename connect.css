@@ -138,3 +138,27 @@
     padding: 30px; 
 }
 
+
+@media only screen and (max-width:560px){
+    .linkedin a{
+        padding: 8px;
+        
+    }
+    .instagram a{
+        padding: 8px;
+    }
+    .mail a{
+        padding: 8px;
+    }
+    .git a{
+        padding: 8px;
+    }
+    .discord a{
+        padding: 8px;
+    }
+    .connectbox{
+        justify-content: center;
+        align-items: center;
+        
+    }
+}

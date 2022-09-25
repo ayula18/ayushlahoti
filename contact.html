@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/media.css"> 
-    <script src="ayuu.js"></script>    
-    <title>Ayush Lahoti Web Developer</title>
+     
+    <title>Contact</title>
 </head>
 <body>
 
@@ -44,6 +44,7 @@
               </div>-->
               
               <div class="main">
+                <nav class="navbar">  
                 <div class="bottomnav">
             
                   <a href="home.html"><button class="button-56">Home</button></a>
@@ -52,17 +53,25 @@
                   <!-- <a href="confess.html"><button class="button-56">Confession</button></a> -->
                   <a href="contact.html"><button class="button-56">Contact</button></a>
               </div>
+              <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            </nav>
           
           
                 <h1>Contact Me For Enquiry</h1>
+                <div class="mastercontact">
+                <div class="contactpic">
+                  <img src="imgp/yo I'm in big trouble.png" alt="Ayush Lahoti">
+
+              </div>
                   <div class="contactform"> 
-                    <div class="contactpic">
-                      <img src="imgp/yo I'm in big trouble.png" alt="Ayush Lahoti">
-  
-                  </div>
+
                           
                       <!-- <h1>Contact Me For Enquiry</h1> -->
-                      <form>
+                      <form onsubmit="sendemail(); reset(); return false;">
                         
                           <div class="mb-3">
                               <label for="exampleInputEmail1" class="form-label">Name</label>
@@ -88,18 +97,39 @@
                           <button type="submit" class="button-55">Submit</button>                    
                         </form>
                   </div>
-                  <div class="footer">
-                    <!-- <footer> -->
-                        Made with ♡ By Ayush Lahoti
-                      <!-- </footer> -->
-                </div>  
+                </div>   
               </div>
         </div>
             
-            
+      <div class="footer">
+        <!-- <footer> -->
+            Made with ♡ By Ayush Lahoti
+          <!-- </footer> -->
+    </div>  
     </ul>
 
 </div >  
 
+
 </body> 
+<script src="ayuu.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    function sendemail(){
+        Email.send({
+    Host : "smtp.yourisp.com",
+    Username : "ayulapvt18@gmail.com",
+    Password : "yush@1818",
+    To : 'ayushlahoti1807@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New Enquiry",
+    Body : 'Name: ' + document.getElementById("name").value
+    + "<br> Email: " + document.getElementById("email").value
+    + "<br> Phone: " + document.getElementById("phone").value
+    + "<br> Enquiry: " + document.getElementById("message formEntry").value
+}).then(
+  message => alert("Request sent succesfully")
+);
+    }
+</script>
 </html>

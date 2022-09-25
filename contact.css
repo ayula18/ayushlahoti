@@ -26,8 +26,10 @@
 }
 .contactform input{
     border-style: ridge; 
+    
     height: 13px;
-    border: solid;
+    border: solid gray; 
+    /* box-sizing: border-box; */
 
 }     
 
@@ -42,10 +44,10 @@
 }
 .mb-3 textarea{
     height: 100px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     display: block;
     color: white;
-    border: solid;
+    border: gray solid;
     
 }
 
@@ -106,9 +108,37 @@
     top: 5px;
     left: 5px;
   }
+
+  .mastercontact{
+      display: flex;
+  }
   
   @media (min-width: 768px) {
     .button-55 {
       padding: 0.25em 0.75em;
     }
   }
+
+
+
+@media only screen and (max-width:730px) {
+    .mastercontact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .contactform{
+        width: 100%;
+        
+    }
+    .contactform form div input{
+        width: 80vw;
+      
+    }
+    .contactform form div textarea{
+        width: 80vw;
+        
+    }
+}
