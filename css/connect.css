@@ -166,5 +166,7 @@
     .forreal img{
         width: 300px;
         height: 300px;
+        align-items: center;
+        justify-content: baseline;
     }
 }
