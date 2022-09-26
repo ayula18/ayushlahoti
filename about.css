@@ -34,6 +34,7 @@
     padding-top: 40px;
     width: 50%;
     color: gray;
+    
 
 }
 .aboutinfo h2{
@@ -70,15 +71,25 @@
     border-left: double;
     display: block;
     font-family: 'Alegreya', serif;
+    border-top: double;
+    border-bottom: double;
     
 }
 .bottominfo2{
     width: 33%;
     border-right: double;
+    border-top: double;
+    border-bottom: double;
+    margin-left: 10px;
+    border-left: double;
 }
 .bottominfo3{
     width: 33%;
     border-right: double;
+    border-top: double;
+    border-bottom: double;
+    border-left: double;
+    margin-left: 10px;
 }
 .bottominfo h3{
     font-family: 'Cinzel', serif; 
@@ -101,6 +112,7 @@
 .bottominfo1 p{
     color: white;
     text-align: left;
+
     font-family: 'Alegreya', serif;
 }
 .bi1{
@@ -141,6 +153,11 @@
 .achievements h5{
     color: #1589FF;
     font-size: 18px;
+}
+.achievements p{
+    color: white;
+    font-family: 'Alegreya', serif;
+    font-size: 14px;
 }
 
 @media only screen and (max-width:730px) {
@@ -192,12 +209,16 @@
     .bottominfo2{
         display: flex;
         flex-direction: column;
+        margin-top: 50px;
+        border-top: double;
+        border-bottom: double;
 
 
     }
     .bottominfo3{
         display: flex;
         flex-direction: column;
+        margin-top: 50px;
 
 
     }
@@ -205,5 +226,57 @@
         align-items: center;
         justify-content: center;
         
+    }
+    .bi1{
+        width: 100%;
+    }
+    .bi2{
+        width: 100%;
+    }
+    .bi3{
+        width: 100%;
+    }
+}
+@media (max-width:926px) {
+    .bottominfo1{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 70%;
+
+
+    }
+
+    .bottominfo2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        border-top: double;
+        border-bottom: double;
+        padding: 10px;
+        width: 70%;
+
+
+    }
+    .bottominfo3{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        padding: 10px;
+        width: 70%;
+
+
+    }
+    .bottominfo{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .aboutinfo{
+        padding-left: 0px;
+    }
+    .aboutinfo:hover{
+        background: transparent;
     }
 }
