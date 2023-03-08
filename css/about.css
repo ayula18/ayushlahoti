@@ -25,7 +25,7 @@
     justify-content: center;
     margin: auto;
     display: block;
-}
+} 
 .aboutinfo{
     display: flex;
     flex-direction: column;
@@ -236,6 +236,7 @@
     .bi3{
         width: 100%;
     }
+
     
 }
 @media (max-width:926px) {
@@ -280,4 +281,30 @@
     .aboutinfo:hover{
         background: transparent;
     }
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
+
+.column {
+    float: left;
+    width: 24%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .certificate h6{
+      font-size: 40px;
+      font-family: 'Edu QLD Beginner', cursive;
+      padding: 20px;
+      padding-top: 70px;
+      text-align: center;
+  }
+  

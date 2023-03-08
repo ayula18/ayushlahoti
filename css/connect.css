@@ -6,35 +6,32 @@
 
 
 .forreal img{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
 
     /* display: block; */
-
+ 
 
 }
 .forreal{
     /* justify-content: center; */
-    align-items: center;
+    align-items: right;
     /* padding: 40px; */
-    margin-top: 100px;
-    /* margin-left: 470px; */
-    /* margin-top: 350px; */
     /* height: 20vw;  */
-    align-items: baseline;
-    justify-content: baseline;
-    
-
-    
+    align-items: right;
+    justify-content: right;
+    margin-left: 150px;
     
 }
 .connectbox{
-    height: 20vw;
+    /* height: 20vw; */
     width: 100%;
-    margin: auto;
-    display: block;
+    /* margin: auto; */
+    display: flex;
+    /* flex-direction: column;  */
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 .connectbox button-57{
     margin: auto;
@@ -47,15 +44,48 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 120px;
-    font-size: 20px;
+    /* margin-top: 12px; */
+    font-size: 10px;
     /* width: 1080px;
     margin: auto;
     margin-right: auto; */
     
+}
+.connectcontainer{
+    display: flex;
+    flex-direction: column;
+    
 
 }
-  
+
+
+.connectboxpro{
+    display: block;
+    
+    color: gray;
+}
+.connectboxpro h2{
+    margin-top: 100px;
+    color: white;
+}
+.connectboxpro i{
+    color: red;
+}
+.connectboxsocial{
+    display: block;
+    
+    color: gray;
+    
+    
+}  
+.connectboxsocial h2{
+    margin-top: 100px;
+    color: white ;
+    
+}
+.connectboxsocial i{
+    color: royalblue;
+}
 .linkedin{
     color: gray;
     font-weight: bold;
@@ -156,9 +186,8 @@
     transform: scale(1.5);
     transition: ease 0.5s;
     background: transparent;
-}
 
-
+} 
 @media only screen and (max-width:560px){
     .linkedin a{
         padding: 10px;
@@ -188,6 +217,17 @@
         width: 300px;
         height: 300px;
         align-items: center;
-        justify-content: baseline;
+        
+        /* margin-top: 100px; */
+    }
+    .forreal{
+        margin-left: 1px;
+    }
+    .connectbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .connectboxpsocial h2{
+        margin-top: 15px;
     }
 }
